@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RussiaRoutesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RussiaRoutesAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* RussiaRoutesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RussiaRoutesViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* RussiaRoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RussiaRoutesViewController.m */; };
+		F30A190E13BA5193000FE875 /* iPadMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F30A190D13BA5193000FE875 /* iPadMainView.xib */; };
+		F30A191213BB9F04000FE875 /* iPadResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F30A191113BB9F04000FE875 /* iPadResultCell.xib */; };
+		F31176BB140D23AA00E43EF6 /* iPadRouteDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F31176BA140D23AA00E43EF6 /* iPadRouteDetailsView.xib */; };
+		F31176BF140D2BCD00E43EF6 /* AutorotateTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31176BE140D2BCD00E43EF6 /* AutorotateTabBarController.m */; };
+		F315A0A413003E01006D816E /* RoutesDb.m in Sources */ = {isa = PBXBuildFile; fileRef = F315A0A313003E01006D816E /* RoutesDb.m */; };
+		F31BD4C912EAEC880022A147 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F31BD4C812EAEC880022A147 /* libsqlite3.dylib */; };
+		F31BD5A612EB45DD0022A147 /* NSDictionary-MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = F31BD5A512EB45DD0022A147 /* NSDictionary-MutableDeepCopy.m */; };
+		F31BD69912EC8FC00022A147 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = F31BD69812EC8FC00022A147 /* City.m */; };
+		F3205682130F978B00983573 /* city_size_0.png in Resources */ = {isa = PBXBuildFile; fileRef = F320567B130F978B00983573 /* city_size_0.png */; };
+		F3205683130F978B00983573 /* city_size_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F320567C130F978B00983573 /* city_size_1.png */; };
+		F3205684130F978B00983573 /* city_size_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F320567D130F978B00983573 /* city_size_2.png */; };
+		F3205685130F978B00983573 /* city_size_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F320567E130F978B00983573 /* city_size_3.png */; };
+		F3205686130F978B00983573 /* city_size_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F320567F130F978B00983573 /* city_size_4.png */; };
+		F3205687130F978B00983573 /* city_size_5.png in Resources */ = {isa = PBXBuildFile; fileRef = F3205680130F978B00983573 /* city_size_5.png */; };
+		F3205688130F978B00983573 /* city_size_6.png in Resources */ = {isa = PBXBuildFile; fileRef = F3205681130F978B00983573 /* city_size_6.png */; };
+		F32056A3130FF57000983573 /* city_size_0_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = F3205695130FF57000983573 /* city_size_0_bottom.png */; };
+		F32056A4130FF57000983573 /* city_size_0_top.png in Resources */ = {isa = PBXBuildFile; fileRef = F3205696130FF57000983573 /* city_size_0_top.png */; };
+		F32056A5130FF57000983573 /* city_size_1_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = F3205697130FF57000983573 /* city_size_1_bottom.png */; };
+		F32056A6130FF57000983573 /* city_size_1_top.png in Resources */ = {isa = PBXBuildFile; fileRef = F3205698130FF57000983573 /* city_size_1_top.png */; };
+		F32056A7130FF57000983573 /* city_size_2_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = F3205699130FF57000983573 /* city_size_2_bottom.png */; };
+		F32056A8130FF57000983573 /* city_size_2_top.png in Resources */ = {isa = PBXBuildFile; fileRef = F320569A130FF57000983573 /* city_size_2_top.png */; };
+		F32056A9130FF57000983573 /* city_size_3_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = F320569B130FF57000983573 /* city_size_3_bottom.png */; };
+		F32056AA130FF57000983573 /* city_size_3_top.png in Resources */ = {isa = PBXBuildFile; fileRef = F320569C130FF57000983573 /* city_size_3_top.png */; };
+		F32056AB130FF57000983573 /* city_size_4_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = F320569D130FF57000983573 /* city_size_4_bottom.png */; };
+		F32056AC130FF57000983573 /* city_size_4_top.png in Resources */ = {isa = PBXBuildFile; fileRef = F320569E130FF57000983573 /* city_size_4_top.png */; };
+		F32056AD130FF57000983573 /* city_size_5_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = F320569F130FF57000983573 /* city_size_5_bottom.png */; };
+		F32056AE130FF57000983573 /* city_size_5_top.png in Resources */ = {isa = PBXBuildFile; fileRef = F32056A0130FF57000983573 /* city_size_5_top.png */; };
+		F32056AF130FF57000983573 /* city_size_6_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = F32056A1130FF57000983573 /* city_size_6_bottom.png */; };
+		F32056B0130FF57000983573 /* city_size_6_top.png in Resources */ = {isa = PBXBuildFile; fileRef = F32056A2130FF57000983573 /* city_size_6_top.png */; };
+		F32056DC1310075100983573 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F32056DA1310075100983573 /* Icon.png */; };
+		F32056DD1310075100983573 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F32056DB1310075100983573 /* Icon@2x.png */; };
+		F325835C1308237A0084836C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F325835B1308237A0084836C /* Default.png */; };
+		F32BEB9E133BB68900D20D1A /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = F32BEB9D133BB68900D20D1A /* location.png */; };
+		F32BEBA0133D023100D20D1A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32BEB9F133D023000D20D1A /* CoreLocation.framework */; };
+		F33B395D1335BD5D00BFFEDC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F33B395B1335BD5D00BFFEDC /* MapViewController.m */; };
+		F33B395E1335BD5D00BFFEDC /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33B395C1335BD5D00BFFEDC /* MapViewController.xib */; };
+		F33B39601335D2BE00BFFEDC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33B395F1335D2BE00BFFEDC /* MapKit.framework */; };
+		F33BE31912DA0ADD006E197B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F33BE31812DA0ADD006E197B /* background.png */; };
+		F33BE32F12DA18A8006E197B /* grayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F33BE32D12DA18A8006E197B /* grayButton.png */; };
+		F33BE33012DA18A8006E197B /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F33BE32E12DA18A8006E197B /* whiteButton.png */; };
+		F33BE33712DA1BA5006E197B /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F33BE33612DA1BA5006E197B /* blueButton.png */; };
+		F33BE36512DB7BD5006E197B /* routes.db in Resources */ = {isa = PBXBuildFile; fileRef = F33BE36412DB7BD5006E197B /* routes.db */; };
+		F33F33F413CE72C8006BA6D8 /* ReferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F33F213CE72C8006BA6D8 /* ReferenceController.m */; };
+		F33F33F513CE72C8006BA6D8 /* ReferenceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33F33F313CE72C8006BA6D8 /* ReferenceController.xib */; };
+		F33F33FC13CF2DEC006BA6D8 /* RegionCodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F33FA13CF2DEC006BA6D8 /* RegionCodeCell.m */; };
+		F33F33FD13CF2DEC006BA6D8 /* RegionCodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F33F33FB13CF2DEC006BA6D8 /* RegionCodeCell.xib */; };
+		F35B914612DDF52D00868A1D /* CitySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35B914412DDF52D00868A1D /* CitySelectViewController.m */; };
+		F35B914712DDF52D00868A1D /* CitySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35B914512DDF52D00868A1D /* CitySelectViewController.xib */; };
+		F368D143140BE92600689D53 /* iPadReferenceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F368D142140BE92600689D53 /* iPadReferenceView.xib */; };
+		F3707BC71340E66A001CD90A /* exchange.png in Resources */ = {isa = PBXBuildFile; fileRef = F3707BC61340E66A001CD90A /* exchange.png */; };
+		F37E2FA313B9E1C1001DA2E4 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F37E2FA113B9E1C1001DA2E4 /* Default-Landscape~ipad.png */; };
+		F37E2FA413B9E1C1001DA2E4 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F37E2FA213B9E1C1001DA2E4 /* Default-Portrait~ipad.png */; };
+		F3822544165567D30087C092 /* road_sign.png in Resources */ = {isa = PBXBuildFile; fileRef = F3822543165567D30087C092 /* road_sign.png */; };
+		F38BE8F613CDE6630018E6C9 /* delivery.png in Resources */ = {isa = PBXBuildFile; fileRef = F38BE8F513CDE6630018E6C9 /* delivery.png */; };
+		F38BE8F913CDEA220018E6C9 /* magnifyingglass.png in Resources */ = {isa = PBXBuildFile; fileRef = F38BE8F813CDEA220018E6C9 /* magnifyingglass.png */; };
+		F38BE8FB13CDEA350018E6C9 /* arrowup.png in Resources */ = {isa = PBXBuildFile; fileRef = F38BE8FA13CDEA350018E6C9 /* arrowup.png */; };
+		F39CA88C13CDF5F30068AF26 /* RegionCodesController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CA88A13CDF5F30068AF26 /* RegionCodesController.m */; };
+		F39CA88D13CDF5F30068AF26 /* RegionCodesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39CA88B13CDF5F30068AF26 /* RegionCodesController.xib */; };
+		F3A731F112DE08E900C1E906 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A731EF12DE08E900C1E906 /* ResultsViewController.m */; };
+		F3A731F212DE08E900C1E906 /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3A731F012DE08E900C1E906 /* ResultsViewController.xib */; };
+		F3DCABA813FC0859000B6633 /* RouteDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DCABA613FC0859000B6633 /* RouteDetailsController.m */; };
+		F3DCABA913FC0859000B6633 /* RouteDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3DCABA713FC0859000B6633 /* RouteDetailsController.xib */; };
+		F3E2532313112E9C00BCEBA7 /* road.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E2532213112E9C00BCEBA7 /* road.png */; };
+		F3E2534A13114B4000BCEBA7 /* Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E2534913114B4000BCEBA7 /* Segment.m */; };
+		F3E2538A1311540200BCEBA7 /* ResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E253891311540200BCEBA7 /* ResultCell.m */; };
+		F3E253CC131157A600BCEBA7 /* ResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3E253CB131157A600BCEBA7 /* ResultCell.xib */; };
+		F3E7EE7313B9D171006A46A5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E7EE7213B9D171006A46A5 /* Icon-72.png */; };
+		F3EDCB8A13B9C954008956B6 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EDCB8913B9C954008956B6 /* MainWindow-iPad.xib */; };
+		F3F2686313F41DC400E2D641 /* RoutesInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F2686113F41DC300E2D641 /* RoutesInfoController.m */; };
+		F3F2686413F41DC400E2D641 /* RoutesInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F2686213F41DC400E2D641 /* RoutesInfoController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RussiaRoutesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussiaRoutesAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RussiaRoutesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussiaRoutesAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* RussiaRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussiaRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* RussiaRoutesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RussiaRoutesViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* RussiaRoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussiaRoutesViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* RussiaRoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussiaRoutesViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* RussiaRoutes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussiaRoutes_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* RussiaRoutes-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RussiaRoutes-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F30A190D13BA5193000FE875 /* iPadMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadMainView.xib; sourceTree = "<group>"; };
+		F30A191113BB9F04000FE875 /* iPadResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadResultCell.xib; sourceTree = "<group>"; };
+		F31176BA140D23AA00E43EF6 /* iPadRouteDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadRouteDetailsView.xib; sourceTree = "<group>"; };
+		F31176BD140D2BCD00E43EF6 /* AutorotateTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutorotateTabBarController.h; sourceTree = "<group>"; };
+		F31176BE140D2BCD00E43EF6 /* AutorotateTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutorotateTabBarController.m; sourceTree = "<group>"; };
+		F315A0A213003E01006D816E /* RoutesDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesDb.h; sourceTree = "<group>"; };
+		F315A0A313003E01006D816E /* RoutesDb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesDb.m; sourceTree = "<group>"; };
+		F31BD4C812EAEC880022A147 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F31BD5A412EB45DD0022A147 /* NSDictionary-MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-MutableDeepCopy.h"; sourceTree = "<group>"; };
+		F31BD5A512EB45DD0022A147 /* NSDictionary-MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-MutableDeepCopy.m"; sourceTree = "<group>"; };
+		F31BD69712EC8FC00022A147 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		F31BD69812EC8FC00022A147 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		F320567B130F978B00983573 /* city_size_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_0.png; path = Images/city_size_0.png; sourceTree = "<group>"; };
+		F320567C130F978B00983573 /* city_size_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_1.png; path = Images/city_size_1.png; sourceTree = "<group>"; };
+		F320567D130F978B00983573 /* city_size_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_2.png; path = Images/city_size_2.png; sourceTree = "<group>"; };
+		F320567E130F978B00983573 /* city_size_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_3.png; path = Images/city_size_3.png; sourceTree = "<group>"; };
+		F320567F130F978B00983573 /* city_size_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_4.png; path = Images/city_size_4.png; sourceTree = "<group>"; };
+		F3205680130F978B00983573 /* city_size_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_5.png; path = Images/city_size_5.png; sourceTree = "<group>"; };
+		F3205681130F978B00983573 /* city_size_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_6.png; path = Images/city_size_6.png; sourceTree = "<group>"; };
+		F3205695130FF57000983573 /* city_size_0_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_0_bottom.png; path = Images/city_size_0_bottom.png; sourceTree = "<group>"; };
+		F3205696130FF57000983573 /* city_size_0_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_0_top.png; path = Images/city_size_0_top.png; sourceTree = "<group>"; };
+		F3205697130FF57000983573 /* city_size_1_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_1_bottom.png; path = Images/city_size_1_bottom.png; sourceTree = "<group>"; };
+		F3205698130FF57000983573 /* city_size_1_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_1_top.png; path = Images/city_size_1_top.png; sourceTree = "<group>"; };
+		F3205699130FF57000983573 /* city_size_2_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_2_bottom.png; path = Images/city_size_2_bottom.png; sourceTree = "<group>"; };
+		F320569A130FF57000983573 /* city_size_2_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_2_top.png; path = Images/city_size_2_top.png; sourceTree = "<group>"; };
+		F320569B130FF57000983573 /* city_size_3_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_3_bottom.png; path = Images/city_size_3_bottom.png; sourceTree = "<group>"; };
+		F320569C130FF57000983573 /* city_size_3_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_3_top.png; path = Images/city_size_3_top.png; sourceTree = "<group>"; };
+		F320569D130FF57000983573 /* city_size_4_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_4_bottom.png; path = Images/city_size_4_bottom.png; sourceTree = "<group>"; };
+		F320569E130FF57000983573 /* city_size_4_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_4_top.png; path = Images/city_size_4_top.png; sourceTree = "<group>"; };
+		F320569F130FF57000983573 /* city_size_5_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_5_bottom.png; path = Images/city_size_5_bottom.png; sourceTree = "<group>"; };
+		F32056A0130FF57000983573 /* city_size_5_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_5_top.png; path = Images/city_size_5_top.png; sourceTree = "<group>"; };
+		F32056A1130FF57000983573 /* city_size_6_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_6_bottom.png; path = Images/city_size_6_bottom.png; sourceTree = "<group>"; };
+		F32056A2130FF57000983573 /* city_size_6_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = city_size_6_top.png; path = Images/city_size_6_top.png; sourceTree = "<group>"; };
+		F32056DA1310075100983573 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		F32056DB1310075100983573 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images/Icon@2x.png"; sourceTree = "<group>"; };
+		F325835B1308237A0084836C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		F32BEB9D133BB68900D20D1A /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = Images/location.png; sourceTree = "<group>"; };
+		F32BEB9F133D023000D20D1A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F33B395A1335BD5D00BFFEDC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
+		F33B395B1335BD5D00BFFEDC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
+		F33B395C1335BD5D00BFFEDC /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		F33B395F1335D2BE00BFFEDC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F33BE31812DA0ADD006E197B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Images/background.png; sourceTree = "<group>"; };
+		F33BE32D12DA18A8006E197B /* grayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayButton.png; path = Images/grayButton.png; sourceTree = "<group>"; };
+		F33BE32E12DA18A8006E197B /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteButton.png; path = Images/whiteButton.png; sourceTree = "<group>"; };
+		F33BE33612DA1BA5006E197B /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueButton.png; path = Images/blueButton.png; sourceTree = "<group>"; };
+		F33BE36412DB7BD5006E197B /* routes.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = routes.db; sourceTree = "<group>"; };
+		F33F33F113CE72C8006BA6D8 /* ReferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReferenceController.h; path = ../ReferenceController.h; sourceTree = "<group>"; };
+		F33F33F213CE72C8006BA6D8 /* ReferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReferenceController.m; path = ../ReferenceController.m; sourceTree = "<group>"; };
+		F33F33F313CE72C8006BA6D8 /* ReferenceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReferenceController.xib; sourceTree = "<group>"; };
+		F33F33F913CF2DEC006BA6D8 /* RegionCodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionCodeCell.h; sourceTree = "<group>"; };
+		F33F33FA13CF2DEC006BA6D8 /* RegionCodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionCodeCell.m; sourceTree = "<group>"; };
+		F33F33FB13CF2DEC006BA6D8 /* RegionCodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegionCodeCell.xib; path = Classes/RegionCodeCell.xib; sourceTree = "<group>"; };
+		F35B914312DDF52D00868A1D /* CitySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySelectViewController.h; sourceTree = "<group>"; };
+		F35B914412DDF52D00868A1D /* CitySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySelectViewController.m; sourceTree = "<group>"; };
+		F35B914512DDF52D00868A1D /* CitySelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CitySelectViewController.xib; path = Classes/CitySelectViewController.xib; sourceTree = "<group>"; };
+		F368D142140BE92600689D53 /* iPadReferenceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadReferenceView.xib; sourceTree = "<group>"; };
+		F3707BC61340E66A001CD90A /* exchange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exchange.png; path = Images/exchange.png; sourceTree = "<group>"; };
+		F37E2FA113B9E1C1001DA2E4 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Images/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		F37E2FA213B9E1C1001DA2E4 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "Images/Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		F3822543165567D30087C092 /* road_sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road_sign.png; path = Images/road_sign.png; sourceTree = "<group>"; };
+		F38BE8F513CDE6630018E6C9 /* delivery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delivery.png; path = Images/delivery.png; sourceTree = "<group>"; };
+		F38BE8F813CDEA220018E6C9 /* magnifyingglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnifyingglass.png; path = Images/magnifyingglass.png; sourceTree = "<group>"; };
+		F38BE8FA13CDEA350018E6C9 /* arrowup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowup.png; path = Images/arrowup.png; sourceTree = "<group>"; };
+		F39CA88913CDF5F30068AF26 /* RegionCodesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegionCodesController.h; path = ../RegionCodesController.h; sourceTree = "<group>"; };
+		F39CA88A13CDF5F30068AF26 /* RegionCodesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegionCodesController.m; path = ../RegionCodesController.m; sourceTree = "<group>"; };
+		F39CA88B13CDF5F30068AF26 /* RegionCodesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegionCodesController.xib; sourceTree = "<group>"; };
+		F3A731EE12DE08E900C1E906 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		F3A731EF12DE08E900C1E906 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		F3A731F012DE08E900C1E906 /* ResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ResultsViewController.xib; path = Classes/ResultsViewController.xib; sourceTree = "<group>"; };
+		F3DCABA513FC0859000B6633 /* RouteDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteDetailsController.h; sourceTree = "<group>"; };
+		F3DCABA613FC0859000B6633 /* RouteDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteDetailsController.m; sourceTree = "<group>"; };
+		F3DCABA713FC0859000B6633 /* RouteDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RouteDetailsController.xib; path = Classes/RouteDetailsController.xib; sourceTree = "<group>"; };
+		F3E2532213112E9C00BCEBA7 /* road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = road.png; path = Images/road.png; sourceTree = "<group>"; };
+		F3E2534813114B4000BCEBA7 /* Segment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segment.h; sourceTree = "<group>"; };
+		F3E2534913114B4000BCEBA7 /* Segment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Segment.m; sourceTree = "<group>"; };
+		F3E253881311540200BCEBA7 /* ResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultCell.h; sourceTree = "<group>"; };
+		F3E253891311540200BCEBA7 /* ResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultCell.m; sourceTree = "<group>"; };
+		F3E253CB131157A600BCEBA7 /* ResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCell.xib; sourceTree = "<group>"; };
+		F3E7EE7213B9D171006A46A5 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icon-72.png"; sourceTree = "<group>"; };
+		F3EDCB8913B9C954008956B6 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		F3F2686013F41DC300E2D641 /* RoutesInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesInfoController.h; sourceTree = "<group>"; };
+		F3F2686113F41DC300E2D641 /* RoutesInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesInfoController.m; sourceTree = "<group>"; };
+		F3F2686213F41DC400E2D641 /* RoutesInfoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RoutesInfoController.xib; path = Classes/RoutesInfoController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32BEBA0133D023100D20D1A /* CoreLocation.framework in Frameworks */,
+				F33B39601335D2BE00BFFEDC /* MapKit.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				F31BD4C912EAEC880022A147 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F31BD5A412EB45DD0022A147 /* NSDictionary-MutableDeepCopy.h */,
+				F31BD5A512EB45DD0022A147 /* NSDictionary-MutableDeepCopy.m */,
+				1D3623240D0F684500981E51 /* RussiaRoutesAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RussiaRoutesAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* RussiaRoutesViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* RussiaRoutesViewController.m */,
+				F35B914312DDF52D00868A1D /* CitySelectViewController.h */,
+				F35B914412DDF52D00868A1D /* CitySelectViewController.m */,
+				F3A731EE12DE08E900C1E906 /* ResultsViewController.h */,
+				F3A731EF12DE08E900C1E906 /* ResultsViewController.m */,
+				F33B395A1335BD5D00BFFEDC /* MapViewController.h */,
+				F33B395B1335BD5D00BFFEDC /* MapViewController.m */,
+				F39CA88913CDF5F30068AF26 /* RegionCodesController.h */,
+				F39CA88A13CDF5F30068AF26 /* RegionCodesController.m */,
+				F3F2686013F41DC300E2D641 /* RoutesInfoController.h */,
+				F3F2686113F41DC300E2D641 /* RoutesInfoController.m */,
+				F3DCABA513FC0859000B6633 /* RouteDetailsController.h */,
+				F3DCABA613FC0859000B6633 /* RouteDetailsController.m */,
+				F33F33F113CE72C8006BA6D8 /* ReferenceController.h */,
+				F33F33F213CE72C8006BA6D8 /* ReferenceController.m */,
+				F31BD69712EC8FC00022A147 /* City.h */,
+				F31BD69812EC8FC00022A147 /* City.m */,
+				F315A0A213003E01006D816E /* RoutesDb.h */,
+				F315A0A313003E01006D816E /* RoutesDb.m */,
+				F3E2534813114B4000BCEBA7 /* Segment.h */,
+				F3E2534913114B4000BCEBA7 /* Segment.m */,
+				F3E253881311540200BCEBA7 /* ResultCell.h */,
+				F3E253891311540200BCEBA7 /* ResultCell.m */,
+				F33F33F913CF2DEC006BA6D8 /* RegionCodeCell.h */,
+				F33F33FA13CF2DEC006BA6D8 /* RegionCodeCell.m */,
+				F31176BD140D2BCD00E43EF6 /* AutorotateTabBarController.h */,
+				F31176BE140D2BCD00E43EF6 /* AutorotateTabBarController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RussiaRoutes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F32BEB9F133D023000D20D1A /* CoreLocation.framework */,
+				F33B395F1335D2BE00BFFEDC /* MapKit.framework */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				F3EDCB8813B9C953008956B6 /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* RussiaRoutes_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F33BE36412DB7BD5006E197B /* routes.db */,
+				F33BE32212DA1893006E197B /* Images */,
+				2899E5210DE3E06400AC0155 /* RussiaRoutesViewController.xib */,
+				F35B914512DDF52D00868A1D /* CitySelectViewController.xib */,
+				F3A731F012DE08E900C1E906 /* ResultsViewController.xib */,
+				F33B395C1335BD5D00BFFEDC /* MapViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				F33F33F313CE72C8006BA6D8 /* ReferenceController.xib */,
+				F39CA88B13CDF5F30068AF26 /* RegionCodesController.xib */,
+				F3F2686213F41DC400E2D641 /* RoutesInfoController.xib */,
+				F3DCABA713FC0859000B6633 /* RouteDetailsController.xib */,
+				8D1107310486CEB800E47090 /* RussiaRoutes-Info.plist */,
+				F3E253CB131157A600BCEBA7 /* ResultCell.xib */,
+				F33F33FB13CF2DEC006BA6D8 /* RegionCodeCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				F31BD4C812EAEC880022A147 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F33BE32212DA1893006E197B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F38BE8FA13CDEA350018E6C9 /* arrowup.png */,
+				F38BE8F813CDEA220018E6C9 /* magnifyingglass.png */,
+				F38BE8F513CDE6630018E6C9 /* delivery.png */,
+				F3707BC61340E66A001CD90A /* exchange.png */,
+				F32BEB9D133BB68900D20D1A /* location.png */,
+				F3E2532213112E9C00BCEBA7 /* road.png */,
+				F32056DA1310075100983573 /* Icon.png */,
+				F32056DB1310075100983573 /* Icon@2x.png */,
+				F3E7EE7213B9D171006A46A5 /* Icon-72.png */,
+				F3205695130FF57000983573 /* city_size_0_bottom.png */,
+				F3205696130FF57000983573 /* city_size_0_top.png */,
+				F3205697130FF57000983573 /* city_size_1_bottom.png */,
+				F3205698130FF57000983573 /* city_size_1_top.png */,
+				F3205699130FF57000983573 /* city_size_2_bottom.png */,
+				F320569A130FF57000983573 /* city_size_2_top.png */,
+				F320569B130FF57000983573 /* city_size_3_bottom.png */,
+				F320569C130FF57000983573 /* city_size_3_top.png */,
+				F320569D130FF57000983573 /* city_size_4_bottom.png */,
+				F320569E130FF57000983573 /* city_size_4_top.png */,
+				F320569F130FF57000983573 /* city_size_5_bottom.png */,
+				F32056A0130FF57000983573 /* city_size_5_top.png */,
+				F3822543165567D30087C092 /* road_sign.png */,
+				F32056A1130FF57000983573 /* city_size_6_bottom.png */,
+				F32056A2130FF57000983573 /* city_size_6_top.png */,
+				F320567B130F978B00983573 /* city_size_0.png */,
+				F320567C130F978B00983573 /* city_size_1.png */,
+				F320567D130F978B00983573 /* city_size_2.png */,
+				F320567E130F978B00983573 /* city_size_3.png */,
+				F320567F130F978B00983573 /* city_size_4.png */,
+				F3205680130F978B00983573 /* city_size_5.png */,
+				F3205681130F978B00983573 /* city_size_6.png */,
+				F325835B1308237A0084836C /* Default.png */,
+				F37E2FA113B9E1C1001DA2E4 /* Default-Landscape~ipad.png */,
+				F37E2FA213B9E1C1001DA2E4 /* Default-Portrait~ipad.png */,
+				F33BE33612DA1BA5006E197B /* blueButton.png */,
+				F33BE32D12DA18A8006E197B /* grayButton.png */,
+				F33BE32E12DA18A8006E197B /* whiteButton.png */,
+				F33BE31812DA0ADD006E197B /* background.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F3EDCB8813B9C953008956B6 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F3EDCB8913B9C954008956B6 /* MainWindow-iPad.xib */,
+				F30A190D13BA5193000FE875 /* iPadMainView.xib */,
+				F30A191113BB9F04000FE875 /* iPadResultCell.xib */,
+				F368D142140BE92600689D53 /* iPadReferenceView.xib */,
+				F31176BA140D23AA00E43EF6 /* iPadRouteDetailsView.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RussiaRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RussiaRoutes" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussiaRoutes;
+			productName = RussiaRoutes;
+			productReference = 1D6058910D05DD3D006BFB54 /* RussiaRoutes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Alsofta;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RussiaRoutes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RussiaRoutes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* RussiaRoutesViewController.xib in Resources */,
+				F33BE31912DA0ADD006E197B /* background.png in Resources */,
+				F33BE32F12DA18A8006E197B /* grayButton.png in Resources */,
+				F33BE33012DA18A8006E197B /* whiteButton.png in Resources */,
+				F33BE33712DA1BA5006E197B /* blueButton.png in Resources */,
+				F33BE36512DB7BD5006E197B /* routes.db in Resources */,
+				F35B914712DDF52D00868A1D /* CitySelectViewController.xib in Resources */,
+				F3A731F212DE08E900C1E906 /* ResultsViewController.xib in Resources */,
+				F325835C1308237A0084836C /* Default.png in Resources */,
+				F3205682130F978B00983573 /* city_size_0.png in Resources */,
+				F3205683130F978B00983573 /* city_size_1.png in Resources */,
+				F3205684130F978B00983573 /* city_size_2.png in Resources */,
+				F3205685130F978B00983573 /* city_size_3.png in Resources */,
+				F3205686130F978B00983573 /* city_size_4.png in Resources */,
+				F3205687130F978B00983573 /* city_size_5.png in Resources */,
+				F3205688130F978B00983573 /* city_size_6.png in Resources */,
+				F32056A3130FF57000983573 /* city_size_0_bottom.png in Resources */,
+				F32056A4130FF57000983573 /* city_size_0_top.png in Resources */,
+				F32056A5130FF57000983573 /* city_size_1_bottom.png in Resources */,
+				F32056A6130FF57000983573 /* city_size_1_top.png in Resources */,
+				F32056A7130FF57000983573 /* city_size_2_bottom.png in Resources */,
+				F32056A8130FF57000983573 /* city_size_2_top.png in Resources */,
+				F32056A9130FF57000983573 /* city_size_3_bottom.png in Resources */,
+				F32056AA130FF57000983573 /* city_size_3_top.png in Resources */,
+				F32056AB130FF57000983573 /* city_size_4_bottom.png in Resources */,
+				F32056AC130FF57000983573 /* city_size_4_top.png in Resources */,
+				F32056AD130FF57000983573 /* city_size_5_bottom.png in Resources */,
+				F32056AE130FF57000983573 /* city_size_5_top.png in Resources */,
+				F32056AF130FF57000983573 /* city_size_6_bottom.png in Resources */,
+				F32056B0130FF57000983573 /* city_size_6_top.png in Resources */,
+				F32056DC1310075100983573 /* Icon.png in Resources */,
+				F32056DD1310075100983573 /* Icon@2x.png in Resources */,
+				F3E2532313112E9C00BCEBA7 /* road.png in Resources */,
+				F3E253CC131157A600BCEBA7 /* ResultCell.xib in Resources */,
+				F33B395E1335BD5D00BFFEDC /* MapViewController.xib in Resources */,
+				F32BEB9E133BB68900D20D1A /* location.png in Resources */,
+				F3707BC71340E66A001CD90A /* exchange.png in Resources */,
+				F3EDCB8A13B9C954008956B6 /* MainWindow-iPad.xib in Resources */,
+				F3E7EE7313B9D171006A46A5 /* Icon-72.png in Resources */,
+				F37E2FA313B9E1C1001DA2E4 /* Default-Landscape~ipad.png in Resources */,
+				F37E2FA413B9E1C1001DA2E4 /* Default-Portrait~ipad.png in Resources */,
+				F30A190E13BA5193000FE875 /* iPadMainView.xib in Resources */,
+				F30A191213BB9F04000FE875 /* iPadResultCell.xib in Resources */,
+				F38BE8F613CDE6630018E6C9 /* delivery.png in Resources */,
+				F38BE8F913CDEA220018E6C9 /* magnifyingglass.png in Resources */,
+				F38BE8FB13CDEA350018E6C9 /* arrowup.png in Resources */,
+				F39CA88D13CDF5F30068AF26 /* RegionCodesController.xib in Resources */,
+				F33F33F513CE72C8006BA6D8 /* ReferenceController.xib in Resources */,
+				F33F33FD13CF2DEC006BA6D8 /* RegionCodeCell.xib in Resources */,
+				F3F2686413F41DC400E2D641 /* RoutesInfoController.xib in Resources */,
+				F3DCABA913FC0859000B6633 /* RouteDetailsController.xib in Resources */,
+				F368D143140BE92600689D53 /* iPadReferenceView.xib in Resources */,
+				F31176BB140D23AA00E43EF6 /* iPadRouteDetailsView.xib in Resources */,
+				F3822544165567D30087C092 /* road_sign.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RussiaRoutesAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* RussiaRoutesViewController.m in Sources */,
+				F35B914612DDF52D00868A1D /* CitySelectViewController.m in Sources */,
+				F3A731F112DE08E900C1E906 /* ResultsViewController.m in Sources */,
+				F31BD5A612EB45DD0022A147 /* NSDictionary-MutableDeepCopy.m in Sources */,
+				F31BD69912EC8FC00022A147 /* City.m in Sources */,
+				F315A0A413003E01006D816E /* RoutesDb.m in Sources */,
+				F3E2534A13114B4000BCEBA7 /* Segment.m in Sources */,
+				F3E2538A1311540200BCEBA7 /* ResultCell.m in Sources */,
+				F33B395D1335BD5D00BFFEDC /* MapViewController.m in Sources */,
+				F39CA88C13CDF5F30068AF26 /* RegionCodesController.m in Sources */,
+				F33F33F413CE72C8006BA6D8 /* ReferenceController.m in Sources */,
+				F33F33FC13CF2DEC006BA6D8 /* RegionCodeCell.m in Sources */,
+				F3F2686313F41DC400E2D641 /* RoutesInfoController.m in Sources */,
+				F3DCABA813FC0859000B6633 /* RouteDetailsController.m in Sources */,
+				F31176BF140D2BCD00E43EF6 /* AutorotateTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RussiaRoutes_Prefix.pch;
+				INFOPLIST_FILE = "RussiaRoutes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = RussiaRoutes;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RussiaRoutes_Prefix.pch;
+				INFOPLIST_FILE = "RussiaRoutes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = RussiaRoutes;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alexei Yuzhakov (4UZQ4N2K8X)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB24289F-CE79-4BE1-B6F0-464F36CF927A";
+				SDKROOT = iphoneos4.1;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Alexei Yuzhakov";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alexei Yuzhakov";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "EF15D49C-6939-4B1C-82E1-65FD5010BAA5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EF15D49C-6939-4B1C-82E1-65FD5010BAA5";
+				SDKROOT = iphoneos4.1;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RussiaRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RussiaRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
